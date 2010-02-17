@@ -1,0 +1,15 @@
+A MacOS X startup item script to automatically start up Redis on system bootup.
+
+By default the script assumes that Redis was installed with Homebrew and the 
+binary is /usr/local/bin/redis-server, and that the config file is
+/usr/local/etc/redis.conf.  You may change this in the script if yours differs.
+
+Author: Chris Bailey (@chrisrbailey on Twitter)
+But, this is a blatant ripoff of René Sprotte's MongoDB startup item:
+http://github.com/jonmagic/mongodb-startupitem-osx
+
+Installation
+============
+
+1.) Copy (as root) the folder redis to /Library/StartupItems
+2.) Restart your Mac
