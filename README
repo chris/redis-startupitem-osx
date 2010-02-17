@@ -11,5 +11,6 @@ http://github.com/jonmagic/mongodb-startupitem-osx
 Installation
 ============
 
-1.) Copy (as root) the folder redis to /Library/StartupItems
-2.) Restart your Mac
+1) Set Redis to run as a daemon in its config file.
+2) Copy (as root) the folder redis to /Library/StartupItems
+3) Restart your Mac
